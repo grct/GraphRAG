@@ -1,3 +1,6 @@
+[tool.poetry]
+package-mode = false
+
 [project]
 name = "graphrag"
 version = "0.1.0"
@@ -9,7 +12,16 @@ readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "langchain (>=0.3.14,<0.4.0)",
-    "langchain-openai (>=0.3.1,<0.4.0)"
+    "langchain-openai (>=0.3.1,<0.4.0)",
+    "langchain-neo4j (>=0.3.0,<0.4.0)",
+    "llama-parse (>=0.5.19,<0.6.0)",
+    "unstructured[local-inference] (>=0.16.14,<0.17.0)",
+    "unstructured[pdf] (>=0.16.14,<0.17.0)",
+    "nltk (==3.9.1)",
+    "marker-pdf (>=1.2.7,<2.0.0)",
+    "llama-index-readers-file (>=0.4.3,<0.5.0)",
+    "langchain-experimental (>=0.3.4,<0.4.0)",
+    "langchain-ibm (>=0.3.5,<0.4.0)",
 ]
 
 
